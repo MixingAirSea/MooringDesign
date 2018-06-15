@@ -58,7 +58,7 @@ def d_diff(a):
 
 
 # Create values of y' and y'' for different dx values
-while n <= 200:
+while (n <= 200):
     n = n + 1  # increase number of points on the line-(length is constant)
     dx = (L - L_0) / n  # changes between each point in x
 
